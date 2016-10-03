@@ -1,0 +1,8 @@
+[2016/09/23 22:35:40.947390,  0] ../source3/param/loadparm.c:3245(process_usershare_file)
+  process_usershare_file: stat of /var/lib/samba/usershares/share failed. Permission denied
+[2016/09/23 22:35:41.154526,  0] ../source3/param/loadparm.c:3245(process_usershare_file)
+  process_usershare_file: stat of /var/lib/samba/usershares/share failed. Permission denied
+[2016/09/23 22:35:41.365393,  0] ../source3/param/loadparm.c:3245(process_usershare_file)
+  process_usershare_file: stat of /var/lib/samba/usershares/share failed. Permission denied
+[2016/09/23 22:51:26.668333,  0] ../source3/param/loadparm.c:3245(process_usershare_file)
+  process_usershare_file: stat of /var/lib/samba/usershares/share failed. Permission denied

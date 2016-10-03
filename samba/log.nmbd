@@ -1,0 +1,32 @@
+[2016/10/03 09:11:09.465920,  0] ../source3/nmbd/nmbd_become_lmb.c:397(become_local_master_stage2)
+  *****
+  
+  Samba name server MIKE is now a local master browser for workgroup WORKGROUP on subnet 192.168.1.102
+  
+  *****
+[2016/10/03 11:22:03.639995,  0] ../source3/nmbd/nmbd_become_lmb.c:397(become_local_master_stage2)
+  *****
+  
+  Samba name server MIKE is now a local master browser for workgroup WORKGROUP on subnet 192.168.1.116
+  
+  *****
+[2016/10/03 13:36:27.518118,  0] ../source3/nmbd/nmbd_incomingrequests.c:118(process_name_release_request)
+  process_name_release_request: Attempt to release name WORKGROUP<1d> from IP 192.168.1.105 on subnet 192.168.1.102 being rejected as it is one of our names.
+[2016/10/03 15:39:52.275906,  0] ../source3/nmbd/nmbd_incomingrequests.c:118(process_name_release_request)
+  process_name_release_request: Attempt to release name WORKGROUP<1d> from IP 192.168.1.105 on subnet 192.168.1.102 being rejected as it is one of our names.
+[2016/10/03 15:39:52.708533,  0] ../source3/nmbd/nmbd_incomingrequests.c:118(process_name_release_request)
+  process_name_release_request: Attempt to release name WORKGROUP<1d> from IP 192.168.1.105 on subnet 192.168.1.102 being rejected as it is one of our names.
+[2016/10/03 16:21:51.613767,  0] ../source3/nmbd/nmbd_incomingdgrams.c:304(process_local_master_announce)
+  process_local_master_announce: Server RITESH3D at IP 192.168.1.105 is announcing itself as a local master browser for workgroup WORKGROUP and we think we are master. Forcing election.
+[2016/10/03 16:21:51.631747,  0] ../source3/nmbd/nmbd_become_lmb.c:150(unbecome_local_master_success)
+  *****
+  
+  Samba name server MIKE has stopped being a local master browser for workgroup WORKGROUP on subnet 192.168.1.102
+  
+  *****
+[2016/10/03 16:22:08.975866,  0] ../source3/nmbd/nmbd_become_lmb.c:397(become_local_master_stage2)
+  *****
+  
+  Samba name server MIKE is now a local master browser for workgroup WORKGROUP on subnet 192.168.1.102
+  
+  *****
